@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moeda</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="caixa">
+        <header class="header">Conversor de moeda</header>
+
+        <main>
+            <label>
+                Converter 
+                <select id="moeda1">
+                    <option>Real</option>
+                </select>
+            </label>
+
+            <label>
+                Converter para
+                <select id="moeda2">
+                    <option>Dolar</option>
+                </select>
+            </label>
+            <label>
+                <input id="valorDigitado" type="number" placeholder="Digite o valor">
+
+                <button>Converter</button>
+
+                <div class="resultado">
+                    <p>Valor convertido: <span id="resultadoConversao"></span></p>
+                </div>
+            </label>
+        </main>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
